@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .mainHeading {background-color:teal;border-style: solid;text-align: center;}
+        .mainSubHeading {background-color: skyblue;border-style:ridge; }
+        .mainInput {width:98%;background-color: white;border-style: groove;text-align: center;margin:auto;}
+        .mainBackground {background-color: powderblue;}
+        .error {background-color:red;border-style: solid;text-align: center;color:white}
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class='mainBackground'>
+<h2>*valLogInTitle*</h2>
+<p>*valLogInSubtitle*</p>
+
+<p class="mainHeading">*valDeleteUserHeading1*</p>
+<form action='*valFilenameLogInPHP*' method='post'>
+<input type='text' name='user' class='mainInput' placeholder='Username'><br>
+*valDeleteUserPassword*<br>
+<button type='submit' name='Go' value='LogInWebPage'>Back</button>
+<button type='submit' name='Go' value='DeleteUser'>Delete</button>
+</form>
+*valDebugText*
+</body>
+</html>
